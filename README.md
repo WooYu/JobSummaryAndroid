@@ -297,3 +297,7 @@ https://www.jianshu.com/p/9bd45b2af9f4
 21、点击非Edittext区域隐藏键盘
 https://blog.csdn.net/mad1989/article/details/25069821
 在activity中处理
+
+22、Retrofit使用
+https://blog.csdn.net/guohaosir/article/details/78942485
+https://www.jianshu.com/p/4268e434150a
