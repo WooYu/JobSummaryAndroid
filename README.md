@@ -304,3 +304,6 @@ https://www.jianshu.com/p/4268e434150a
 
 23、CoordinatorLayout
 https://www.jianshu.com/p/b987fad8fcb4
+
+24、RecyclerView平滑滚动
+https://blog.csdn.net/qq_20613731/article/details/112854243
