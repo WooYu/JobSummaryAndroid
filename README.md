@@ -307,3 +307,6 @@ https://www.jianshu.com/p/b987fad8fcb4
 
 24、RecyclerView平滑滚动
 https://blog.csdn.net/qq_20613731/article/details/112854243
+
+22、EditText
+价格的处理：https://blog.csdn.net/sziitjin/article/details/108377863
