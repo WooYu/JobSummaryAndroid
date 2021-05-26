@@ -1,3 +1,4 @@
+
 # JobSummaryAndroid
 # JobSummaryAndroid
 **1、时间选择的组件**
@@ -288,25 +289,39 @@ https://blog.csdn.net/wzhworld/article/details/83718336
 https://blog.csdn.net/weixin_36709064/article/details/82919785
 ```
 
-19、通知栏
+**19、通知栏**
+```
 https://www.jianshu.com/p/c15e90ca2abf
+```
 
-20、Kotlin中单例
+**20、Kotlin中单例**
+```
 https://www.jianshu.com/p/9bd45b2af9f4
+```
 
-21、点击非Edittext区域隐藏键盘
+**21、点击非Edittext区域隐藏键盘**
+```
 https://blog.csdn.net/mad1989/article/details/25069821
 在activity中处理
+```
 
-22、Retrofit使用
+**22、Retrofit使用**
+```
 https://blog.csdn.net/guohaosir/article/details/78942485
 https://www.jianshu.com/p/4268e434150a
+```
 
-23、CoordinatorLayout
+**23、CoordinatorLayout**
+```
 https://www.jianshu.com/p/b987fad8fcb4
+```
 
-24、RecyclerView平滑滚动
+**24、RecyclerView平滑滚动**
+```
 https://blog.csdn.net/qq_20613731/article/details/112854243
+```
 
-22、EditText
+**22、EditText**
+```
 价格的处理：https://blog.csdn.net/sziitjin/article/details/108377863
+```
