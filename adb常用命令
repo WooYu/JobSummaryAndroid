@@ -1,0 +1,53 @@
+adb命令
+	重启设备
+		adb reboot
+	查看apk版本号
+		adb shell pm dump 包名|findstr version
+	查看包名
+		adb shell pm list package -f
+	卸载应用
+		adb uninstall [-k] <package-name>
+	强制停止应用
+		adb shell am force-stop <packagename>
+	清除应用数据与缓存
+		adb shell pm clear <package-name>
+	模拟返回键
+		adb shell input keyevnt 4
+	更改权限
+		mount -o remount,rw /system
+	查看任务栈
+		adb shell dumpsys activity
+	Logcat过滤
+		^(?!.*(REMOTE_DIAG|WebSocketManager|REMOTE_DIAG)).*$
+	查看启动Activity类名
+		adb shell
+		dumpsys package <应用包名>
+		找到Category为launcher的Activity
+		启动应用
+			adb shell am start -n <应用名称> /<应用启动Activity的绝对名称>
+	推送相关
+		发送消息的广播
+			adb shell am broadcast -a com.push.msg1
+		启动AppClient
+			adb shell am start -n  com.autel.push.clientapp/com.autel.push.clientapp.MainActivity
+		启动app
+			adb shell am start -n  com.autel.push/com.autel.push.AppTestActivity
+	SmartDecoder相关
+		启动uploaddemo
+			adb shell am start -n com.example.uploaddemo/com.example.uploaddemo.MainActivity
+		启动infouploadtest
+			adb shell am start -n com.example.infouploadfortest/com.example.infouploadfortest.MainActivity
+		启动SmartCode
+			adb shell am start -n com.maxi.diagnose.plate/com.autel.smartdecode.PortraitMainActivity
+		退出SmartDecode
+			adb shell am force-stop com.maxi.diagnose.plate
+		启动品轩
+			 adb shell  am start -n com.sandro.openalprsample4/com.sandro.openalprsample.login.LoginActivity
+		   chenqichuan@auteltech.net A111111
+	启动系统应用
+		浏览器
+			adb shell am start -n com.android.chrome/com.google.android.apps.chrome.Main
+	当前activity
+		adb shell
+		logcat | grep ActivityManage
+		adb shell dumpsys activity activities
